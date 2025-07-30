@@ -7,7 +7,7 @@ export function configureSwaggerDocs(app: INestApplication) {
       .setTitle('API')
       .setDescription('The API description')
       .setVersion('1.0')
-      .addServer('http://localhost:3000', 'Local server')
+      .addServer('http://localhost:5555', 'Local server')
       .addTag('auth', 'API by authentication')
       .addTag('users', 'API by users management')
       .addTag('app', 'API of example ( resources protected and public ) ')
