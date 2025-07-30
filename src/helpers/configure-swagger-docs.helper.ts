@@ -8,6 +8,7 @@ export function configureSwaggerDocs(app: INestApplication) {
       .setDescription('The API description')
       .setVersion('1.0')
       .addServer('http://localhost:5555', 'Local server')
+      .addServer('https://basic.aforsy.my.id', 'Production server')
       .addTag('auth', 'API by authentication')
       .addTag('users', 'API by users management')
       .addTag('app', 'API of example ( resources protected and public ) ')
