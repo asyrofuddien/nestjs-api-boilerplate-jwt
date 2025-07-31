@@ -18,7 +18,7 @@ export function configureSwaggerDocs(app: INestApplication) {
         bearerFormat: 'Bearer',
         scheme: 'Bearer',
         type: 'http',
-        in: 'Header',
+        in: 'header',
       })
       .build();
     const documentFactory = () => SwaggerModule.createDocument(app, config);
